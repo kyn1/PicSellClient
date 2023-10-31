@@ -9,6 +9,7 @@ namespace PicSell.Controllers
 {
 	[Route("api/customer")]
 	[ApiController]
+	//controller coustomer activities
 	public class CustomerController : ControllerBase
 	{
 		private readonly ICustomerService _customerService;
